@@ -1,0 +1,8 @@
+frontend:
+  libs:
+    folder: /static/libs
+  app:
+    folder: /frontend
+    settings: app-settings.json
+    components:
+      folder: /components

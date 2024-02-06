@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.buildone.core.test.domain.service.ClasspathCoreConfigurationTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2024-02-06T02:56:00" hostname="sabirmbpro.lan" time="0.462">
+  <properties/>
+  <testcase name="whenFrameworkCssIsRequested_itReturnsCorrectCss()" classname="dev.buildone.core.test.domain.service.ClasspathCoreConfigurationTest" time="0.437"/>
+  <testcase name="whenPropertiesAreReadSuccessfully_itCreatesConfigs()" classname="dev.buildone.core.test.domain.service.ClasspathCoreConfigurationTest" time="0.001"/>
+  <testcase name="whenTemplateIsConfiguredCorrectly_itCreatesABean()" classname="dev.buildone.core.test.domain.service.ClasspathCoreConfigurationTest" time="0.0"/>
+  <testcase name="whenAppSettingsProvided_itLoadsSettingsCorrectly()" classname="dev.buildone.core.test.domain.service.ClasspathCoreConfigurationTest" time="0.002"/>
+  <testcase name="whenAppJsIsRequested_itReturnsCorrectJs()" classname="dev.buildone.core.test.domain.service.ClasspathCoreConfigurationTest" time="0.001"/>
+  <testcase name="whenServiceIsConfiguredCorrectly_itCreatesABean()" classname="dev.buildone.core.test.domain.service.ClasspathCoreConfigurationTest" time="0.001"/>
+  <testcase name="whenFrameworkJsIsRequested_itReturnsCorrectJs()" classname="dev.buildone.core.test.domain.service.ClasspathCoreConfigurationTest" time="0.001"/>
+  <testcase name="whenAppCssIsRequested_itReturnsCorrectCss()" classname="dev.buildone.core.test.domain.service.ClasspathCoreConfigurationTest" time="0.001"/>
+  <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2024-02-05T21:56:00.749-05:00  INFO 7423 --- [    Test worker] b.c.t.d.s.ClasspathCoreConfigurationTest : Starting ClasspathCoreConfigurationTest using Java 21.0.2 with PID 7423 (started by msabir in /Users/msabir/development/projects/buildone-core)
+2024-02-05T21:56:00.751-05:00  INFO 7423 --- [    Test worker] b.c.t.d.s.ClasspathCoreConfigurationTest : The following 1 profile is active: "classpath"
+2024-02-05T21:56:00.983-05:00  INFO 7423 --- [    Test worker] b.c.t.d.s.ClasspathCoreConfigurationTest : Started ClasspathCoreConfigurationTest in 0.369 seconds (process running for 0.873)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/msabir/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.11/f9cb566608fbac6bc7bf54901a7aa11543a989ee/byte-buddy-agent-1.14.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

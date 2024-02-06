@@ -1,0 +1,17 @@
+{
+  "version": "2024-02-02",
+  "title": "Build One App",
+  "components": [
+    {
+      "name": "app-toolbar",
+      "folder": "/tops"
+    },
+    {
+      "name": "app-body",
+      "folder": "/"
+    },
+    {
+      "name": "app-footer"
+    }
+  ]
+}

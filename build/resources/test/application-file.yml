@@ -1,0 +1,13 @@
+frontend:
+  libs:
+    path: /libs
+    folder: /static/libs
+  app:
+    folder: file:/Users/msabir/development/projects/buildone-core/src/test/resources/frontend
+    settings: app-settings.json
+    components:
+      path: /components
+      folder: /components
+    main:
+      path: /app
+      folder: /app
